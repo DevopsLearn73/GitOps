@@ -29,7 +29,7 @@ spec:
             - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: rohitkube/adservice:1a10dc3425f905fab4421d05ee0306b84d4e4224
+        image: rohitkube/adservice:7f257d236cb51c8fc813edecd8709b53717d6650
         ports:
         - containerPort: 9555
         env:
