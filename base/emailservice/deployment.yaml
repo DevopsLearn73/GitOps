@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: rohitkube/emailservice:5199cf4352fb786069b1942abadb6c3583120355
+        image: rohitkube/emailservice:25299e3f48aa045165ba64429e5ab1aa02a0c41b
         ports:
         - containerPort: 8080
         env:
