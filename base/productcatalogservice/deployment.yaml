@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: rohitkube/productcatalogservice:27505137871d1c33b12f3ce7c48b2878b2d7f32b
+        image: rohitkube/productcatalogservice:f7e769376915a36cc26dae247b4807909ab678d2
         ports:
         - containerPort: 3550
         env:
