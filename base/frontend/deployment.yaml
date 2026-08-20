@@ -30,7 +30,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: rohitkube/frontend:9
+          image: rohitkube/frontend:6dc395f061fa30df9d213dc471384cd6ff085eca
           ports:
           - containerPort: 8080
           readinessProbe:

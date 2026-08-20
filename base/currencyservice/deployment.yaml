@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: rohitkube/currencyservice:d21132018c30f54d2aedfd8bd9893debe3557110
+        image: rohitkube/currencyservice:6929e760e6dc8df39cdc85a3c5ab893fa52b3fbc
         ports:
         - name: grpc
           containerPort: 7000

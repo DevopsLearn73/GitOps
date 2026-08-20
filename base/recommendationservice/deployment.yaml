@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: rohitkube/recommendationservice:d640d95241d47304e0b9d0a383480e7e8461c685
+        image: rohitkube/recommendationservice:922534d8cb0c704c1a6e0713b78b7bcfbbb84577
         ports:
         - containerPort: 8080
         readinessProbe:

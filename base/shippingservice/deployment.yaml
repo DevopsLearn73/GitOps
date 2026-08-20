@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: rohitkube/shippingservice:7b5fe48375cd65823d8ad4a6f416250564e56efb
+        image: rohitkube/shippingservice:e7c21f3b292bd601b8db2b65b8e9b9953dcf502c
         ports:
         - containerPort: 50051
         env:
